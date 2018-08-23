@@ -1,5 +1,28 @@
-# Awesome-Python
+# Python
 Python is an easy to learn language many beginners to coding choose as their first programming language and it is not limited to web development, as you can build games and applications for academical research with it. If you are new to programming or simply interested in learning Python, here are some resources you can use.
+
+## Good Concepts to Know for Best Practices Python Development
+1. Isolating your developer space to avoid running into altering the global python environment.
+  - Problem:
+> If you don't specify a unique python environment, by default, you will use the global python environment of your computer.
+> Other apps or your computer may rely on specific versions of python modules so if you start installing new modules, you could break things.
+> Also, you will probably work on multiple python projects and you don't want their dependencies to interfere with each other.
+> In a professional environment, you will need to collaborate with other developers. In these cases, you want to be able to share the exact
+> dependencies of your project so the project can be recreated and run from any computer. Working in a unique python environment (venv) will
+> make it trivial to check what modules your project has used. This manifests in the requirements.txt file which is then used by others
+> to install modules.
+  - Solution:
+    - virtualenv
+    - conda
+2. Code Style Standards
+  - Problem:
+> Python allows your code to be written in vastly different ways but you generally want it to be easy to read and understand.
+> In a professional environment, you want your code to be just as easy to understand for someone else as yourself so many will
+> adhere to coding styles or guidelines. In Python, the accepted standard is PEP8.
+  - Solution:
+    - [PEP8](https://www.python.org/dev/peps/pep-0008/)
+    - Style Enforcement Tools [pylint](https://www.pylint.org/), [pyflakes](https://github.com/PyCQA/pyflakes)
+3. Unit Testing (pytest, unittest, doctest)
 
 ## Best Collection of Python Tutorials
   - Learning Guide- [Learn Python Online](https://www.codementor.io/learn-python-online)
