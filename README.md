@@ -1,7 +1,7 @@
-# Awesome-Python
+# Python
 Python is an easy to learn language many beginners to coding choose as their first programming language and it is not limited to web development, as you can build games and applications for academical research with it. If you are new to programming or simply interested in learning Python, here are some resources you can use.
 
-# Good Concepts to Know for Best Practices Python Development
+## Good Concepts to Know for Best Practices Python Development
 1. Isolating your developer space to avoid running into altering the global python environment.
   - Problem:
 > If you don't specify a unique python environment, by default, you will use the global python environment of your computer.
@@ -15,8 +15,13 @@ Python is an easy to learn language many beginners to coding choose as their fir
     - virtualenv
     - conda
 2. Code Style Standards
-  - [PEP8](https://www.python.org/dev/peps/pep-0008/)
-  - Style Enforcement Tools [pylint](https://www.pylint.org/), [pyflakes](https://github.com/PyCQA/pyflakes)
+  - Problem:
+> Python allows your code to be written in vastly different ways but you generally want it to be easy to read and understand.
+> In a professional environment, you want your code to be just as easy to understand for someone else as yourself so many will
+> adhere to coding styles or guidelines. In Python, the accepted standard is PEP8.
+  - Solution:
+    - [PEP8](https://www.python.org/dev/peps/pep-0008/)
+    - Style Enforcement Tools [pylint](https://www.pylint.org/), [pyflakes](https://github.com/PyCQA/pyflakes)
 3. Unit Testing (pytest, unittest, doctest)
 
 ## Best Collection of Python Tutorials
