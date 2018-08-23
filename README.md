@@ -23,6 +23,23 @@ Python is an easy to learn language many beginners to coding choose as their fir
     - [PEP8](https://www.python.org/dev/peps/pep-0008/)
     - Style Enforcement Tools [pylint](https://www.pylint.org/), [pyflakes](https://github.com/PyCQA/pyflakes)
 3. Unit Testing (pytest, unittest, doctest)
+4. Commenting
+  - Problem:
+> When looking at new code or reviewing code, you are generally working on one piece of a larger code base.
+> It may be difficult or impossible to know what you can expect to receive in your code or, for others, to know
+> what they may expect from your code.
+> Structuring your comments in a standardized way will allow tools like Sphinx to generate documentation for you.
+  - Solution:
+    - Tools: Sphinx (Auto-generate documentation)
+    - Comment Styles [google](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)
+5. Debug & Learning Techniques
+  - Problem:
+> If you don't understand how something works or what is available from some python module/class/function, you can use the help() function.
+  - Solution:
+    - help(x): Provide the comments written for the module/class/function specified as x as written documentation (similar to 'man')
+    - var(x): all methods and variables tied to x (One of these involves inheritance chain)
+    - dir(x): all methods and variables tied to x
+    - id(): address in memory
 
 ## Best Collection of Python Tutorials
   - Learning Guide- [Learn Python Online](https://www.codementor.io/learn-python-online)
@@ -37,7 +54,7 @@ Python is an easy to learn language many beginners to coding choose as their fir
   - [Learn Python](http://www.learnpython.org/)
   - [Python for You and Me](http://pymbook.readthedocs.org/en/py3/)
   - [Learn Python the Hard Way](http://learnpythonthehardway.org/book/)
-  - [edX Introduction to Computer Science and Programming Using Python] (https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-5)
+  - [edX Introduction to Computer Science and Programming Using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-5)
 
 ## General Topics for Beginners
   - [Python Tutorials for Beginners and Programmers ](https://www.codementor.io/python/tutorial)
